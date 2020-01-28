@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "615492134789",
+    "firebase_url": "https://textdetector-a4db8.firebaseio.com",
+    "project_id": "textdetector-a4db8",
+    "storage_bucket": "textdetector-a4db8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615492134789:android:393768deae037cf5d8c6ec",
+        "android_client_info": {
+          "package_name": "net.berkayak.textdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615492134789-o28jlplq07obkhgsgqmoo5195dtmrtgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6IGTbWXJEt3St6nQcUtnq-_-QXLSU-pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615492134789-o28jlplq07obkhgsgqmoo5195dtmrtgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

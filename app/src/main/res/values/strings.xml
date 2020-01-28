@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TextDetector</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="words">Words which search(Seperate with \',\')</string>
+    <string name="fill_searh_words">Fill the search words field!</string>
+</resources>
