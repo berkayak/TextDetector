@@ -62,7 +62,7 @@ public class ImageRecognizerService {
                     String elementText = element.getText();
 
                     for (String key : keyWords){
-                        if (key.toLowerCase().equals(elementText.toLowerCase()))
+                        if (key.toLowerCase().trim().equals(elementText.toLowerCase().trim()))
                             resultTexts.add(elementText);
                     }
                 }

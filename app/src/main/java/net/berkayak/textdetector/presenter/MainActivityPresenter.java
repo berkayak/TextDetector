@@ -8,14 +8,11 @@ import android.provider.MediaStore;
 import android.util.Log;
 
 import net.berkayak.textdetector.model.ImageRecognizerService;
-
-import java.util.ArrayList;
-
 public class MainActivityPresenter implements IMainActivityContract.Presenter {
     IMainActivityContract.View mViewPusher;
     Activity mContext;
 
-    static final int REQUEST_IMAGE_CAPTURE = 1;
+    public static final int REQUEST_IMAGE_CAPTURE = 1;
 
     public MainActivityPresenter(IMainActivityContract.View vPusher, Activity context){
         this.mViewPusher = vPusher;
@@ -63,7 +60,7 @@ public class MainActivityPresenter implements IMainActivityContract.Presenter {
     private ImageRecognizerService.IServiceRepoerter sr = new ImageRecognizerService.IServiceRepoerter() {
         @Override
         public void onCheckFinish(String[] rs) {
-            Log.i("REGS", String.valueOf(rs.length));
+            Log.i("AKAMPUSGROUP", String.valueOf(rs.length));
             mViewPusher.showResult(rs);
         }
     };
